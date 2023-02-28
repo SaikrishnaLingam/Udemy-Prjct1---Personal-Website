@@ -1,0 +1,159 @@
+/* ************************************CSS Selectors*************************************** */
+body {
+    background-color: #FFF5EB;
+    margin: 0;
+    text-align: center; /*centres everything that doesn't have a width element*/
+    /* font-family: 'Allura', cursive;
+    font-family: 'Babylonica', cursive; */
+    font-family: 'Cabin', sans-serif;
+    /* font-family: 'Dancing Script', cursive;
+    font-family: 'Merriweather', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'PT Mono', monospace;
+    font-family: 'Sacramento', cursive;
+    font-family: 'Yesteryear', cursive; */
+}
+hr{
+    border-style: none;
+    width: 25%;
+    border-top: 5px dotted #B2B8A3;
+}
+h1{
+    color: #18122B;
+    /* width: 10%; */
+    margin: 50px auto 0 auto; /*margin-top margin-right margin-bottom margin-left --------------- clockwise*/
+    font-family: 'Babylonica', cursive;
+    font-size: 6.375rem; 
+    /* line-height: 2; */
+    font-weight: bold;
+}
+h2{
+    color: #f0b48f;
+    font-family: 'PT Mono', monospace;
+    font-weight: normal;
+}
+h3{
+    /* color: #B2B8A3; */
+    color: #11999E;
+    font-family: 'PT Mono', monospace;
+}
+h4{
+    color: #F0A04B;
+}
+div{
+    background-color: #ffffff;
+    padding: 10px;
+    margin: 0px;
+}
+p {
+    font-family: 'Cabin', sans-serif;;
+}
+a {
+    font-size: large;
+    margin: 5px 40px;
+}
+
+/* ************************************Links*************************************** */
+a:link {
+    color: rgb(6, 62, 121);
+    text-decoration: none;
+  }
+  
+a:visited {
+    color: #F77E21;
+  }
+  
+  /* mouse over link */
+a:hover {
+    color: rgb(0, 132, 255);
+  }
+  
+  /* selected link */
+a:active {
+    color: rgb(255, 77, 0);
+  }
+
+/* ************************************Class Selectors*************************************** */
+.me {
+    height: 200px;
+    border-radius: 43% 57% 62% 38% / 32% 54% 46% 68% ;
+}
+.main-container {
+    background-color: #e5eff1bf;
+    padding-top: 100px;
+    position: relative;
+}
+.er {
+    text-decoration: underline;
+}
+.topcloud {
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+.bottomcloud {
+    position:absolute;
+    left: 300px;
+    bottom: 300px;
+}
+.myphotos {
+    height: 250px;
+    width: 250px;
+}
+.skillp {
+    width: 20%;
+    float: left;
+    margin-right: 30px;
+}
+.skillpccc {
+    width: 20%;
+    float: right;
+    margin-left: 30px;
+}
+.text {
+    font-size: 2.5rem;
+    color: #B2B8A3;
+}
+.skill-row {
+    margin: 0 auto 50px auto;
+    width: 50%;
+    line-height: 2;
+    text-align: left;
+}
+.mtnt {
+    position: relative;
+    bottom: 5px;
+}
+.btn {
+    background: #A5F1E9;
+    background-image: -webkit-linear-gradient(top, #A5F1E9, #2192FF);
+    background-image: -moz-linear-gradient(top, #A5F1E9, #2192FF);
+    background-image: -ms-linear-gradient(top, #A5F1E9, #2192FF);
+    background-image: -o-linear-gradient(top, #A5F1E9, #2192FF);
+    background-image: linear-gradient(to bottom, #A5F1E9, #2192FF);
+    -webkit-border-radius: 60;
+    -moz-border-radius: 60;
+    border-radius: 60px;
+    -webkit-box-shadow: 1px 2px 10px #000000;
+    -moz-box-shadow: 1px 2px 10px #000000;
+    box-shadow: 1px 2px 10px #000000;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 25px 10px 25px;
+    text-decoration: none;
+  } 
+.btn:hover {
+    background: #C58940;
+    background-image: -webkit-linear-gradient(top, #C58940, #FFE7CC);
+    background-image: -moz-linear-gradient(top, #C58940, #FFE7CC);
+    background-image: -ms-linear-gradient(top, #C58940, #FFE7CC);
+    background-image: -o-linear-gradient(top, #C58940, #FFE7CC);
+    background-image: linear-gradient(to bottom, #C58940, #FFE7CC);
+    text-decoration: none;
+}
+.sq2 {
+    background-color: #FFDEB4;
+    padding: 20px;
+}
